@@ -6,11 +6,12 @@ pipeline{
                     git credentialsId: 'git', url: 'https://github.com/cloudblit/pipeline-office.git'
                 }
             }
-            stage(''){
+            stage('list files'){
                 steps{
                     sh label: '', script: 'ls'
                 }
             }
+            stage
         }
     }
 }
