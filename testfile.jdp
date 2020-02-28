@@ -16,6 +16,6 @@ pipeline{
                     echo 'i am executing the building stage'
                 }
         }
-        
+        stage(test)
     }
 }
