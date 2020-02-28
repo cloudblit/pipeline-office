@@ -11,7 +11,9 @@ pipeline{
                     sh label: '', script: 'ls'
                 }
             }
-            stage('')
+            stage('build'){
+                
+            }
         }
     }
 }
