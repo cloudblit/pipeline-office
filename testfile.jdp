@@ -1,8 +1,8 @@
 pipeline{
     agent any
         stages{
-            stage('code pull'){
-                steps{
+        stage('code pull'){
+            steps{
                     git credentialsId: 'git', url: 'https://github.com/cloudblit/pipeline-office.git'
                 }
             }
