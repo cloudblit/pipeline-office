@@ -1,7 +1,9 @@
 pipeline{
     agent any{
         stages{
-            stage('code pull')
+            stage('code pull'){
+                steps
+            }
         }
     }
 }
