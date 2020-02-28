@@ -6,7 +6,11 @@ pipeline{
                     git credentialsId: 'git', url: 'https://github.com/cloudblit/pipeline-office.git'
                 }
             }
-            stage('build'){}
+            stage('build'){
+                steps{
+                    
+                }
+            }
         }
     }
 }
