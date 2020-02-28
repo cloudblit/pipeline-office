@@ -4,3 +4,4 @@ echo 'this is a test job for auto commit and build'
 echo 'testing the final execution'
 echo testing the latest setup now
 echo testing pipeline job build
+echo 
