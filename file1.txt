@@ -1,3 +1,3 @@
 #!bin/bash
 echo 'welcome all'
-echo 'this is a test job for auto commit and buil
+echo 'this is a test job for auto commit and build'
