@@ -13,7 +13,7 @@ pipeline{
             }
             stage('build'){
                 steps{
-                    
+                    echo 'i am executing the building stage'
                 }
             }
         }
