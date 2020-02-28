@@ -8,9 +8,8 @@ pipeline{
             }
             stage('list files'){
                 steps{
-                    sh label: '', script: 'ls'
 
-                
+                }
             }
         }
     }
