@@ -7,10 +7,10 @@ pipeline{
                 }
         }
         stage('list files'){
-                steps{
+            steps{
                     sh label: '', script: 'ls'
                 }
-            }
+        }
             stage('build'){
                 steps{
                     echo 'i am executing the building stage'
